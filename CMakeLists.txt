@@ -3,4 +3,4 @@ project(HeatEqu2D)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HeatEqu2D main.cpp)
+add_executable(HeatEqu2D main.cpp HeatSystem.cpp HeatSystem.h)
